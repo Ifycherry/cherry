@@ -1,0 +1,22 @@
+header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.go {
+    color: brown;
+}
+
+header > nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
